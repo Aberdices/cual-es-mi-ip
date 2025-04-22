@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Descubre cuál es tu IP pública al instante. Herramienta rápida y gratuita para ver tu dirección IP actual.">
-  <title>¿Cuál es mi IP?</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre tu dirección IP y obtén información detallada sobre tu conexión. Herramienta gratuita para verificar tu IP pública, ubicación y más.">
+    <title>¿Cuál es mi IP? | Verifica tu dirección IP y ubicación</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>¿Cuál es mi IP?</h1>
-    <p>Tu dirección IP pública actual es:</p>
-    <div id="ip" class="ip-box">Cargando...</div>
-    <button onclick="copyIP()">Copiar IP</button>
-
-    <section>
-      <h2>¿Qué es una dirección IP?</h2>
-      <p>Una dirección IP es un número único que identifica tu conexión a internet. Puede usarse para geolocalización, diagnóstico técnico o pruebas de red.</p>
-    </section>
-
-    <footer>
-      <p>Proyecto de <a href="https://www.aberdices.com" target="_blank">Aberdices</a> · SEO técnico silencioso</p>
-    </footer>
-  </main>
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>¿Cuál es mi IP?</h1>
+        <div class="info-card">
+            <div class="info-item">
+                <span class="label">Tu IP Pública:</span>
+                <span id="ip" class="value">Cargando...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Ubicación:</span>
+                <span id="location" class="value">Cargando...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Proveedor de Internet:</span>
+                <span id="isp" class="value">Cargando...</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Navegador:</span>
+                <span id="browser" class="value">Cargando...</span>
+            </div>
+        </div>
+        
+        <div class="seo-content">
+            <h2>¿Qué es una dirección IP?</h2>
+            <p>Una dirección IP (Protocolo de Internet) es un identificador único asignado a cada dispositivo conectado a una red. Es como la dirección de tu casa en el mundo digital, permitiendo que otros dispositivos se comuniquen contigo a través de Internet.</p>
+            
+            <h2>¿Por qué es importante conocer mi IP?</h2>
+            <p>Conocer tu dirección IP puede ser útil para:</p>
+            <ul>
+                <li>Solucionar problemas de conexión</li>
+                <li>Configurar servidores y redes</li>
+                <li>Comprender tu privacidad en línea</li>
+                <li>Acceder a servicios geolocalizados</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
