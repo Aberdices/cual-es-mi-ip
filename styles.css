@@ -56,7 +56,7 @@ h1 {
     font-size: 1.1em;
 }
 
-.seo-content {
+.seo-content, .copy {
     background: white;
     border-radius: 15px;
     padding: 30px;
