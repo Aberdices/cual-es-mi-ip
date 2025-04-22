@@ -6,7 +6,7 @@ async function getIPInfo() {
         document.getElementById('ip').textContent = data.ip;
         
         // Obtener información de ubicación usando ip-api.com
-        const locationResponse = await fetch(`https://ip-api.com/json/${data.ip}`);
+        const locationResponse = await fetch(`http://ip-api.com/json/${data.ip}`);
         const locationData = await locationResponse.json();
         
         if (locationData.status === 'success') {
