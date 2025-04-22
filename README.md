@@ -8,10 +8,8 @@ Este proyecto es una herramienta minimalista para ver tu dirección IP pública 
 - Hosting en GitHub Pages
 
 ### 🌐 Enlace directo
-[Visita la página](https://TU_USUARIO.github.io/cual-es-mi-ip/)
+[Visita la página](.com/aberdices)
 
-### 📈 Propósito SEO
-Este mini sitio estático sirve como parte de una estrategia SEO técnica silenciosa para generar presencia de marca, enlaces contextualizados y velocidad de carga extrema.
 
 ---
 
